@@ -29,10 +29,5 @@ DermaNerd helps users understand their skin through personalized quizzes, AI-pow
 
 ---
 
-## Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/Yomna-Ashraf/DermaNerd.git
 
