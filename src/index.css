@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import "tailwindcss";
+
+
+:root{
+
+  /* Backgrounds */
+  --bg-primary:#251e3a;
+  --bg-gradient:#100e10;
+  --bg-white:#ffffff;
+
+  /* Text */
+  --text-white:#ffffff;
+  --text-dark:#f600b1;
+  --text-gray:#d1d5db;
+
+  /* Main Brand */
+  --primary:#f600b1;
+
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Tenor Sans', sans-serif;
+background: linear-gradient(90deg,rgba(38, 5, 51, 1) 0%, rgba(24, 24, 56, 1) 48%, rgba(33, 6, 31, 1) 100%);
+  color:var(--text-dark);
+  overflow-x:hidden;
+}
+
+.container-custom{
+  width:90%;
+  max-width:1200px;
+  margin:auto;
+}
